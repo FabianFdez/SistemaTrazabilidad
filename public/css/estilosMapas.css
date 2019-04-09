@@ -1,0 +1,25 @@
+@media screen and (max-width:640px) {
+  /* reglas CSS */
+}
+@media screen and (max-width:1024px) and (min-width:640px) {
+  /* reglas CSS */
+}
+@media screen and (min-width:1024px) {
+  /* reglas CSS */
+}
+
+svg{
+    
+    fill:#495057;
+    max-width: 875px;
+    min-width: 300px;
+}
+
+polygon{
+    stroke-width:1.5px;
+    stroke: #000;
+}
+
+.st:hover{
+    fill:rgba(6,5,6,0.8);
+}
