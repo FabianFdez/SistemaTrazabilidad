@@ -6,11 +6,13 @@
     <div class="row">
         <div class="col-lg-6 mx-auto p-3 animate-in-down">
             <form class="p-4 bg-light" method="post" action="{{url('/desCultivoReproductivo')}}">
+                
+                @csrf
                 <h4 class="mb-4 text-center">Desarrollo de Cultivo Reproductivo</h4>
-                   @csrf
+                  
                 <div class="form-group">
                         <div class="form-check">
-                            <input class="form-check-input" type="checkbox" name="colCharola" value="1" id="uno" onchange="activar(this.checked), showContent();">
+                            <input class="form-check-input" type="checkbox" value="1" name="colCharola" id="uno" onchange="activar(this.checked)">
                             <label class="form-check-label" for="gridCheck1">
                                 Colocación de Charola
                             </label>
@@ -20,7 +22,7 @@
 
                 <div class="form-group">
                         <div class="form-check">
-                            <input class="form-check-input" type="checkbox" name="pintFruta" value="1" id="dos" onchange="activar2(this.checked), showContent2();">
+                            <input class="form-check-input" type="checkbox" name="pintFruta" value="1" id="dos" disabled onchange="activar2(this.checked)">
                             <label class="form-check-label" for="gridCheck1">
                                 Pintado de Fruta
                             </label>
@@ -30,7 +32,7 @@
 
                 <div class="form-group">
                         <div class="form-check">
-                            <input class="form-check-input" type="checkbox" name="colColmena" value="1" id="tres" onchange="activar3(this.checked), showContent3();">
+                            <input class="form-check-input" type="checkbox" name="colColmena" value="1" id="tres" disabled onchange="activar3(this.checked)">
                             <label class="form-check-label" for="gridCheck1">
                                 Colocación de la Colmena
                             </label>
@@ -40,7 +42,7 @@
 
                 <div class="form-group">
                         <div class="form-check">
-                            <input class="form-check-input" type="checkbox" name="retiColmena" value="1" id="cuatro" onchange="activar4(this.checked), showContent4();" >
+                            <input class="form-check-input" type="checkbox" name="retiColmena" value="1" id="cuatro" disabled onchange="activar4(this.checked)" >
                             <label class="form-check-label" for="gridCheck1">
                                 Retiro de la Colmena
                             </label>
@@ -50,7 +52,7 @@
 
                 <div class="form-group">
                         <div class="form-check">
-                            <input class="form-check-input" type="checkbox" name="polinizacion" value="1" id="cinco" onchange="activar5(this.checked), showContent5();">
+                            <input class="form-check-input" type="checkbox" name="polinizacion" value="1" id="cinco" disabled onchange="activar5(this.checked)">
                             <label class="form-check-label" for="gridCheck1">
                                 Polinización
                             </label>
@@ -60,7 +62,7 @@
 
                 <div class="form-group">
                         <div class="form-check">
-                            <input class="form-check-input" type="checkbox" name="apliHormona" value="1"id="seis" onchange="activar6(this.checked), showContent6();">
+                            <input class="form-check-input" type="checkbox" name="apliHormona" value="1"id="seis" disabled onchange="activar6(this.checked)">
                             <label class="form-check-label" for="gridCheck1">
                                 Aplicación de Hormona
                             </label>
@@ -70,7 +72,7 @@
 
                 <div class="form-group">
                         <div class="form-check">
-                            <input class="form-check-input" type="checkbox"name="fertilizacion" value="1" id="siete" onchange="activar7(this.checked), showContent7();">
+                            <input class="form-check-input" type="checkbox"name="fertilizacion" value="1" id="siete" disabled onchange="activar7(this.checked)">
                             <label class="form-check-label" for="gridCheck1">
                                 Fertilización
                             </label>
@@ -80,7 +82,7 @@
 
                 <div class="form-group">
                         <div class="form-check">
-                            <input class="form-check-input" type="checkbox" name="volFruta" value="1" id="ocho" onchange="activar8(this.checked), showContent8();">
+                            <input class="form-check-input" type="checkbox" name="volFruta" value="1" id="ocho" disabled onchange="activar8(this.checked)">
                             <label class="form-check-label" for="gridCheck1">
                                 Volteo de la Fruta
                             </label>
@@ -90,7 +92,7 @@
 
                 <div class="form-group">
                         <div class="form-check">
-                            <input class="form-check-input" type="checkbox" name="contPlagas" value="1"id="nueve" onchange="activar9(this.checked), showContent9();">
+                            <input class="form-check-input" type="checkbox" name="contPlagas" value="1"id="nueve" disabled onchange="activar9(this.checked)">
                             <label class="form-check-label" for="gridCheck1">
                                 Control de Plaga
                             </label>
@@ -100,7 +102,7 @@
 
                 <div class="form-group">
                         <div class="form-check">
-                            <input class="form-check-input" type="checkbox" name="contEnfermedades" value="1" id="diez" onchange="activar10(this.checked), showContent10();">
+                            <input class="form-check-input" type="checkbox" name="contEnfermedades" value="1" id="diez" disabled onchange="activar10(this.checked)">
                             <label class="form-check-label" for="gridCheck1">
                                 Control de Enfermedades
                             </label>
@@ -110,7 +112,7 @@
 
                 <div class="form-group">
                         <div class="form-check">
-                            <input class="form-check-input" type="checkbox" name="estiFruta" value="1" id="once" onchange="activar11(this.checked), showContent11();">
+                            <input class="form-check-input" type="checkbox" name="estiFruta" value="1" id="once" disabled onchange="activar11(this.checked)">
                             <label class="form-check-label" for="gridCheck1">
                                 Estimación de la Fruta
                             </label>
@@ -120,7 +122,7 @@
 
                 <div class="form-group">
                         <div class="form-check">
-                            <input class="form-check-input" type="checkbox" name="raleoFruta" value="1" id="doce" onchange="activar12(this.checked), showContent12();">
+                            <input class="form-check-input" type="checkbox" name="raleoFruta" value="1" id="doce" disabled onchange="activar12(this.checked)">
                             <label class="form-check-label" for="gridCheck1">
                                 Raleo de la Fruta
                             </label>

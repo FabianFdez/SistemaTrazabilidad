@@ -5,13 +5,13 @@
 <div class="container">
     <div class="row">
         <div class="col-lg-6 mx-auto p-3 animate-in-down">
-            <form class="p-4 bg-light" method="post" action="/savePreparacion">
+            <form class="p-4 bg-light" method="POST" action="{{url('/savePreparacion')}}">
                 @csrf
                 <h4 class="mb-4 text-center">Preparación</h4>
 
                 <div class="form-group">
                         <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value='1' name="rastra" id="uno" onchange="activar(this.checked), showContent();">
+                            <input class="form-check-input" type="checkbox" value='1' name="rastra" id="uno" onchange="activar(this.checked)">
                             <label class="form-check-label" for="gridCheck1">
                                 Rastra
                             </label>
@@ -21,7 +21,7 @@
 
                 <div class="form-group">
                         <div class="form-check">
-                            <input disabled onchange="activar2(this.checked), showContent2();" class="form-check-input" type="checkbox" id="dos" value='1' name="encamado">
+                            <input disabled onchange="activar2(this.checked)" class="form-check-input" type="checkbox" id="dos" value='1' name="encamado">
                             <label class="form-check-label" for="gridCheck1">
                                 Encamado
                             </label>
@@ -32,7 +32,7 @@
 
                <div class="form-group">
                         <div class="form-check">
-                            <input disabled onchange="activar3(this.checked), showContent3();" class="form-check-input" type="checkbox" id="tres" value='1' name='plastico' >
+                            <input disabled onchange="activar3(this.checked)" class="form-check-input" type="checkbox" id="tres" value='1' name='plastico' >
                             <label class="form-check-label" for="gridCheck1">
                                 Plástico
                             </label>
@@ -42,7 +42,7 @@
 
                <div class="form-group">
                         <div class="form-check">
-                            <input disabled onchange="activar4(this.checked), showContent4();" id="cuatro" class="form-check-input" type="checkbox" value="1" name='fertilizante'>
+                            <input disabled onchange="activar4(this.checked)" id="cuatro" class="form-check-input" type="checkbox" value="1" name='fertilizante'>
                             <label class="form-check-label" for="gridCheck1">
                                 Fertilizante
                             </label>
@@ -53,7 +53,7 @@
 
                 <div class="form-group">
                         <div class="form-check">
-                            <input disabled onchange="activar5(this.checked), showContent5();" id="cinco" class="form-check-input " type="checkbox"  value="1" name="mangueras">
+                            <input disabled onchange="activar5(this.checked)" id="cinco" class="form-check-input " type="checkbox"  value="1" name="mangueras">
                             <label class="form-check-label" for="gridCheck1">
                                 Manguera
                             </label>

@@ -12,10 +12,9 @@
                 <div class="form-group"> <label>Fruta</label>
                     <select name="manejo" class="form-control">
                         <option  value="0">Seleccionar Fruta</option>
-                    </select>    
-                    
-                    
+                    </select>  
                 </div>
+
                 <div class="form-group">
                     <label>Fecha Estimada de Siembra</label>
                     <div class="date">
@@ -28,7 +27,7 @@
                 
                 <div class="form-group">
                     <div class="form-check">
-                            <input class="form-check-input" type="checkbox" name="barrerCama" value="1" id="uno" onchange="activar(this.checked), showContent();">
+                        <input class="form-check-input" type="checkbox" value="1" name="barrerCama" id="uno" onchange="activar(this.checked)">
                             <label class="form-check-label" for="gridCheck1" >
                                 Barrer las Camas
                             </label>
@@ -38,7 +37,7 @@
 
                 <div class="form-group">
                     <div class="form-check">
-                            <input class="form-check-input" type="checkbox" name="prenPlasticos" value="1" id="dos" onchange="activar2(this.checked), showContent2();" >
+                            <input class="form-check-input" type="checkbox" name="prenPlasticos" value="1" id="dos" disabled onchange="activar2(this.checked)" >
                             <label class="form-check-label" for="gridCheck1">
                                 Prensado de Plástico
                             </label>
@@ -48,7 +47,7 @@
 
                 <div class="form-group">
                         <div class="form-check">
-                            <input class="form-check-input" type="checkbox" name="rieSuelo" value="1" id="tres" onchange="activar3(this.checked), showContent3();" >
+                            <input class="form-check-input" type="checkbox" name="rieSuelo" value="1" id="tres" disabled onchange="activar3(this.checked)" >
                             <label class="form-check-label" for="gridCheck1">
                                 Riego de Suelo
                             </label>
@@ -58,7 +57,7 @@
 
                 <div class="form-group">
                     <div class="form-check">
-                            <input class="form-check-input" type="checkbox" name="fumigante" value="1" id="cuatro" onchange="activar4(this.checked), showContent4();">
+                            <input class="form-check-input" type="checkbox" name="fumigante" value="1" id="cuatro" disabled onchange="activar4(this.checked)">
                             <label class="form-check-label" for="gridCheck1">
                                 Fumigante
                             </label>
@@ -68,7 +67,7 @@
 
                 <div class="form-group">
                         <div class="form-check">
-                            <input class="form-check-input" type="checkbox" name="ApliHerbicida" value="1" id="cinco" onchange="activar5(this.checked), showContent5();">
+                            <input class="form-check-input" type="checkbox" name="ApliHerbicida" value="1" id="cinco" disabled onchange="activar5(this.checked)">
                             <label class="form-check-label" for="gridCheck1">
                                 Aplicación de Herbicida
                             </label>
@@ -77,7 +76,7 @@
                 </div>
                 <div class="form-group">
                     <div class="form-check">
-                            <input class="form-check-input" type="checkbox" name="perPlastico" value="1" id="seis" onchange="activar6(this.checked), showContent6();">
+                            <input class="form-check-input" type="checkbox" name="perPlastico" value="1" id="seis" disabled onchange="activar6(this.checked)">
                             <label class="form-check-label" for="gridCheck1">
                                 Perforado de Plástico
                             </label>
@@ -86,7 +85,7 @@
                 </div>
                 <div class="form-group ">
                     <div class="form-check">
-                            <input class="form-check-input" type="checkbox" name="recChapita" value="1" id="siete" onchange="activar7(this.checked), showContent7();">
+                            <input class="form-check-input" type="checkbox" name="recChapita" value="1" id="siete" disabled onchange="activar7(this.checked)">
                             <label class="form-check-label" for="gridCheck1">
                                 Recolección de Chapita
                             </label>
@@ -95,7 +94,7 @@
                 </div>
                 <div class="form-group">
                     <div class="form-check">
-                            <input class="form-check-input" type="checkbox" name="apliMaleza" value="1" id="ocho" onchange="activar8(this.checked), showContent8();">
+                            <input class="form-check-input" type="checkbox" name="apliMaleza" value="1" id="ocho" disabled onchange="activar8(this.checked)">
                             <label class="form-check-label" for="gridCheck1">
                                 Aplicación de Maleza
                             </label>
@@ -105,7 +104,7 @@
 
                 <div class="form-group">
                     <div class="form-check">
-                            <input class="form-check-input" type="checkbox" name="desEntrecama" value="1" id="nueve" onchange="activar9(this.checked), showContent9();">
+                            <input class="form-check-input" type="checkbox" name="desEntrecama" value="1" id="nueve" disabled onchange="activar9(this.checked)">
                             <label class="form-check-label" for="gridCheck1">
                                 Descompactar Entrecama
                             </label>

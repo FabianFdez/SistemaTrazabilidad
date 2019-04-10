@@ -14,7 +14,7 @@
 
                 <div class="form-group">
                     <div class="form-check">
-                        <input class="form-check-input" type="checkbox" name="trasplante"   value="1" id="uno" onchange="activar(this.checked), showContent();">
+                        <input class="form-check-input" type="checkbox" name="trasplante"   value="1" id="uno" onchange="activar(this.checked)">
                         <label class="form-check-label" for="gridCheck1">
                             Transplante
                     </label>
@@ -24,7 +24,7 @@
 
                 <div class="form-group">
                     <div class="form-check">
-                        <input class="form-check-input" type="checkbox" name="colManTermica"  value="1" id="dos" onchange="activar2(this.checked), showContent2();">
+                        <input class="form-check-input" type="checkbox" name="colManTermica"  value="1" id="dos" disabled onchange="activar2(this.checked)">
                         <label class="form-check-label" for="gridCheck1">
                             Colocación de Manta Termica
                     </label>
@@ -34,7 +34,7 @@
 
                 <div class="form-group">
                     <div class="form-check">
-                        <input class="form-check-input" type="checkbox" name="fertilizacion"  value="1" id="tres" onchange="activar3(this.checked), showContent3();">
+                        <input class="form-check-input" type="checkbox" name="fertilizacion"  value="1" id="tres" disabled onchange="activar3(this.checked)">
                         <label class="form-check-label" for="gridCheck1">
                             Fertilización
                     </label>
@@ -43,7 +43,7 @@
                 </div>
                 <div class="form-group">
                     <div class="form-check">
-                        <input class="form-check-input" type="checkbox" name="contPlagas"  value="1"id="cuatro" onchange="activar4(this.checked), showContent4();">
+                        <input class="form-check-input" type="checkbox" name="contPlagas"  value="1"id="cuatro" disabled onchange="activar4(this.checked)">
                         <label class="form-check-label" for="gridCheck1">
                             Control de Plagas
                     </label>
@@ -53,7 +53,7 @@
 
                 <div class="form-group">
                     <div class="form-check">
-                        <input class="form-check-input" type="checkbox" name="conEnfermedades"  value="1"id="cinco" onchange="activar5(this.checked), showContent5();">
+                        <input class="form-check-input" type="checkbox" name="conEnfermedades"  value="1"id="cinco" disabled onchange="activar5(this.checked)">
                         <label class="form-check-label" for="gridCheck1">
                             Control de Enfermedades
                     </label>
@@ -64,7 +64,7 @@
 
                 <div class="form-group">
                     <div class="form-check">
-                        <input class="form-check-input" type="checkbox" name="quiManta"  value="1" id="seis" onchange="activar6(this.checked), showContent6();">
+                        <input class="form-check-input" type="checkbox" name="quiManta"  value="1" id="seis" disabled onchange="activar6(this.checked)">
                         <label class="form-check-label" for="gridCheck1">
                             Quitar Manta
                     </label>
