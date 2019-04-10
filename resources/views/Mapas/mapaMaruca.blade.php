@@ -1,7 +1,12 @@
 @extends('layouts.app')
 
 @section('content')
-<button type="button" id="prueba" class="btn btn-primary">prueba</button>
+<div style="padding-left: 50px; padding-top: 25px">
+    <p>Sin empezar<div style="background-color: grey; width:20px; height:20px; margin-left: 100px; margin-top: -35px"></div></p>
+    <p>En proceso<div style="background-color: yellow; width:20px; height:20px; margin-left: 100px; margin-top: -35px"></div></p>
+    <p>Finalizada<div style="background-color: green; width:20px; height:20px; margin-left: 100px; margin-top: -35px"></div></p>
+    <p>Retraso<div style="background-color: red; width:20px; height:20px; margin-left: 100px; margin-top: -35px"></div></p>
+</div>
     <center>
          
           <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"

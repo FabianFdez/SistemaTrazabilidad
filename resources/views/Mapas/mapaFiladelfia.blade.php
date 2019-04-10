@@ -1,6 +1,12 @@
 @extends('layouts.app')
 
 @section('content')
+<div style="padding-left: 50px; padding-top: 25px">
+    <p>Sin empezar<div style="background-color: grey; width:20px; height:20px; margin-left: 100px; margin-top: -35px"></div></p>
+    <p>En proceso<div style="background-color: yellow; width:20px; height:20px; margin-left: 100px; margin-top: -35px"></div></p>
+    <p>Finalizada<div style="background-color: green; width:20px; height:20px; margin-left: 100px; margin-top: -35px"></div></p>
+    <p>Retraso<div style="background-color: red; width:20px; height:20px; margin-left: 100px; margin-top: -35px"></div></p>
+</div>
 	<center>
 		<svg version="1.1" id="Capa_1"  x="0px" y="0px"
         	viewBox="0 0 1000 700" style="enable-background:new 0 0 1000 700;" xml:space="preserve">
