@@ -10,6 +10,14 @@
                     <form method="post" action="?c=Inicio" enctype="multipart/form-data">
                         <article>
                             <center>
+                                <div class="caja">
+                                    <img src="iconos/analytics.svg" width="64px" hspace="10" vspace="10" 
+                                         align="center" style="width:64px; height:64px; "/>
+                                    <center>   
+                                        <a href="{{ url('/reportes')}}" class="btn btn-outline-dark" id="boton">Reportes</a>
+                                    </center> 
+                                </div>
+
                                 <div class="caja1">
                                     <img src="iconos/plantation.svg"  hspace="10" vspace="10" 
                                          align="center" style="width:64px; height:64px; " />
@@ -28,21 +36,13 @@
                                 </div>
 
                                 <div class="caja1">
-                                    <img src="iconos/analytics.svg" width="64px" hspace="10" vspace="10" 
-                                         align="center" style="width:64px; height:64px; "/>
-                                    <center>   
-                                        <a href="{{ url('/reportes')}}" class="btn btn-outline-dark">Reportes</a>
-                                    </center> 
-                                </div>
-
-                                <div class="caja1">
                                     <img src="iconos/team.svg" width="64px" hspace="10" vspace="10" 
                                          align="center" style="width:64px; height:64px; "/>
                                     <center>
                                          <a href="{{ url('/usuarios') }} " class="btn btn-outline-dark"> Usuarios</a>
                                     </center> 
                                 </div>
-                                <div class="caja1">
+                                <div class="caja1" style="margin-left: 115px">
                                     <img src="iconos/watermelon.svg" width="64px" hspace="10" vspace="10" 
                                          align="center" style="width:64px; height:64px; "/>
                                     <center> 
@@ -50,7 +50,7 @@
                                     </center> 
                                 </div>
 
-                                <div class="caja1">
+                                <div class="caja1" style="padding-left: 95px">
                                     <img src="iconos/exit.svg" width="64px" hspace="10" vspace="10" 
                                          align="center" style="width:64px; height:64px; "/>
                                     <center> 

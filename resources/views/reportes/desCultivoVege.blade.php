@@ -74,7 +74,7 @@
 
 
 
-                <button type="submit" class="btn mt-4 btn-block p-2 btn-outline-" style="background: #ffe633"><b>Guardar</b></button>
+                <button type="submit" class="btn mt-4 btn-block p-2 btn-outline-dark"><b>Guardar</b></button>
                 <a href="{{url('/principalReportes')}}" type="button" class="btn mt-4 btn-block p-2 btn-outline-dark" > <b>Cancelar</b> </a>
             </form>
         </div>

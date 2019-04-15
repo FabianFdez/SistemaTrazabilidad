@@ -1,7 +1,9 @@
 a{
     color: green;
 }
-
+#boton{
+    width: 300px;
+}
 
 .izq{
 	float:left;
@@ -9,11 +11,14 @@ a{
 .der{
 	float:right;
 }
+.caja:hover{
+     transform: scale(1.1);
+}
 
 .caja1{
 	width:200px;
 	height:150px;
-        margin: 20px;
+    margin: 20px;
 	float: left;
 	font-size:0.9em;
 }
@@ -21,7 +26,7 @@ a{
 .caja2{
 	width:200px;
 	height:40px;
-        margin: 70px;
+    margin: 70px;
 	float:left;
 	font-size:0.9em;
 }
