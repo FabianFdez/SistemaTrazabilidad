@@ -42,7 +42,7 @@
                                          <a href="{{ url('/usuarios') }} " class="btn btn-outline-dark"> Usuarios</a>
                                     </center> 
                                 </div>
-                                <div class="caja1" style="margin-left: 115px">
+                                <div class="caja1" >
                                     <img src="iconos/watermelon.svg" width="64px" hspace="10" vspace="10" 
                                          align="center" style="width:64px; height:64px; "/>
                                     <center> 
@@ -50,7 +50,7 @@
                                     </center> 
                                 </div>
 
-                                <div class="caja1" style="padding-left: 95px">
+                                <div class="caja1">
                                     <img src="iconos/exit.svg" width="64px" hspace="10" vspace="10" 
                                          align="center" style="width:64px; height:64px; "/>
                                     <center> 
