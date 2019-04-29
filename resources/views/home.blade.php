@@ -38,8 +38,7 @@
                                 </div>
 
                                 <div class="caja1">
-                                    <img src="iconos/team.svg" width="64px" hspace="10" vspace="10" 
-                                         align="center" style="width:64px; height:64px; "/>
+                                    
                                     <center>
                                          <a href="{{ url('/usuarios') }} " class="btn btn-outline-dark"> Usuarios</a>
                                     </center> 
